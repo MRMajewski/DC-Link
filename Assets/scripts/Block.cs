@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 
 
-public enum BlockColor { Red, Green, Blue, Yellow, Magenta, Gray }
+public enum BlockColor { Flash, Batman, GLantern, Superman, Wonder, Cyborg }
 
 [System.Serializable]
 class BlockType

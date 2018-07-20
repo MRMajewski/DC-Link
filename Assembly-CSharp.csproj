@@ -63,6 +63,9 @@
      <Compile Include="Assets\scripts\SceneChanger.cs" />
      <Compile Include="Assets\scripts\SceneNames.cs" />
      <Compile Include="Assets\scripts\UserInterface.cs" />
+     <None Include="Assets\fonts\mask.txt" />
+     <None Include="Assets\fonts\License - READ THIS.txt" />
+     <None Include="Assets\fonts\whata.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>E:/IT/Unity/Projekty/StrefaKursow/JellyLink/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
