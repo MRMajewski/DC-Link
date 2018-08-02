@@ -61,6 +61,14 @@ public class BlockConnection : MonoBehaviour
             Board.RemoveBlocks(ConnectedBlocks);
             Board.RefreshBlocks();
         }
+        if(ConnectedBlocks.Count >= 4)
+        {
+            FindObjectOfType<GameManager>().RemainingTime ++;
+        }
+        if (ConnectedBlocks.Count >= 5)
+        {
+            FindObjectOfType<GameManager>().RemainingTime += 3;
+        }
 
         ConnectedBlocks.Clear();
 
