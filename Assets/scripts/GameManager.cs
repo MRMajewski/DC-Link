@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
-    float GameDuration = 60f;
+    float GameDuration = 30f;
 
     private float remainingTime;
     public float RemainingTime

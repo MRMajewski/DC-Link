@@ -450,7 +450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 546c0f46f559bca41b0522347e31bda0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameDuration: 60
+  GameDuration: 30
 --- !u!4 &1081146065
 Transform:
   m_ObjectHideFlags: 0
