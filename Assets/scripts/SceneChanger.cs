@@ -18,6 +18,12 @@ public class SceneChanger : MonoBehaviour {
         StartCoroutine(FadeInCoroutine());
 	}
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+    }
+
     Image CreateBlend()
     {
         var obj = new GameObject();

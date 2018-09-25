@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JellyLink", "Assembly-CSharp.csproj", "{7F02DBB1-D801-B44A-32E0-91584CB88561}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7F02DBB1-D801-B44A-32E0-91584CB88561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

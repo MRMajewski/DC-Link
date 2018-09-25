@@ -52,6 +52,12 @@ public class GameManager : MonoBehaviour
         FindObjectOfType<BlockConnection>().OnConnection += UpdateScore;
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+    }
+
     IEnumerator TimeCounterCoroutine()
     {
         while (true)
